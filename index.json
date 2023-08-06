@@ -13,5 +13,5 @@
             "options": { "singleQuote": false }
         }
     ],
-    "plugins": ["prettier-plugin-css-order", "prettier-plugin-organize-imports", "prettier-plugin-packagejson", "prettier-plugin-tsconfig"]
+    "plugins": ["prettier-plugin-css-order", "prettier-plugin-organize-imports", "prettier-plugin-packagejson"]
 }
