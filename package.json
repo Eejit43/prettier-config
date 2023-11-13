@@ -1,6 +1,6 @@
 {
     "name": "@eejit/prettier-config",
-    "version": "2.0.5",
+    "version": "2.1.0",
     "dependencies": {
         "prettier": "^3.1.0",
         "prettier-plugin-css-order": "^2.0.1",
