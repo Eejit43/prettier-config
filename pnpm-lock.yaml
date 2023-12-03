@@ -15,8 +15,8 @@ dependencies:
     specifier: ^3.2.4
     version: 3.2.4(prettier@3.1.0)(typescript@5.1.6)
   prettier-plugin-packagejson:
-    specifier: ^2.4.6
-    version: 2.4.6(prettier@3.1.0)
+    specifier: ^2.4.7
+    version: 2.4.7(prettier@3.1.0)
 
 packages:
 
@@ -50,7 +50,7 @@ packages:
       is-glob: 4.0.3
       open: 9.1.0
       picocolors: 1.0.0
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /big-integer@1.6.51:
@@ -454,8 +454,8 @@ packages:
       typescript: 5.1.6
     dev: false
 
-  /prettier-plugin-packagejson@2.4.6(prettier@3.1.0):
-    resolution: {integrity: sha512-5JGfzkJRL0DLNyhwmiAV9mV0hZLHDwddFCs2lc9CNxOChpoWUQVe8K4qTMktmevmDlMpok2uT10nvHUyU59sNw==}
+  /prettier-plugin-packagejson@2.4.7(prettier@3.1.0):
+    resolution: {integrity: sha512-/n1HGcBbuJyTlD3tb2/tW1mT5WIR6FCo+bAijHF6pNoSBf8YoxoskawjSY2ku9/8d6mdzci7oMchziI7CYEWYg==}
     peerDependencies:
       prettier: '>= 1.16.0'
     peerDependenciesMeta:
@@ -464,7 +464,7 @@ packages:
     dependencies:
       prettier: 3.1.0
       sort-package-json: 2.6.0
-      synckit: 0.8.5
+      synckit: 0.8.6
     dev: false
 
   /prettier@3.1.0:
@@ -548,12 +548,12 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
-  /synckit@0.8.5:
-    resolution: {integrity: sha512-L1dapNV6vu2s/4Sputv8xGsCdAVlb5nRDMFU/E27D44l5U6cw1g0dGd45uLc+OXjNMmF4ntiMdCimzcjFKQI8Q==}
+  /synckit@0.8.6:
+    resolution: {integrity: sha512-laHF2savN6sMeHCjLRkheIU4wo3Zg9Ln5YOjOo7sZ5dVQW8yF5pPE5SIw1dsPhq3TRp1jisKRCdPhfs/1WMqDA==}
     engines: {node: ^14.18.0 || >=16.0.0}
     dependencies:
       '@pkgr/utils': 2.4.2
-      tslib: 2.6.1
+      tslib: 2.6.2
     dev: false
 
   /titleize@3.0.0:
@@ -568,8 +568,8 @@ packages:
       is-number: 7.0.0
     dev: false
 
-  /tslib@2.6.1:
-    resolution: {integrity: sha512-t0hLfiEKfMUoqhG+U1oid7Pva4bbDPHYfJNiB7BiIjRkj1pyC++4N3huJfqY6aRH6VTB0rvtzQwjM4K6qpfOig==}
+  /tslib@2.6.2:
+    resolution: {integrity: sha512-AEYxH93jGFPn/a2iVAwW87VuUIkR1FVUKB77NwMF7nBTDkDrrT/Hpt/IrCJ0QXhW27jTBDcf5ZY7w6RiqTMw2Q==}
     dev: false
 
   /typescript@5.1.6:
