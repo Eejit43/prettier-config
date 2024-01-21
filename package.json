@@ -1,6 +1,6 @@
 {
     "name": "@eejit/prettier-config",
-    "version": "2.2.1",
+    "version": "2.2.2",
     "repository": "github:Eejit43/prettier-config",
     "dependencies": {
         "prettier": "^3.2.4",
