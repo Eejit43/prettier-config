@@ -9,8 +9,8 @@ dependencies:
     specifier: ^3.2.5
     version: 3.2.5
   prettier-plugin-css-order:
-    specifier: ^2.0.1
-    version: 2.0.1(postcss@8.4.31)(prettier@3.2.5)
+    specifier: ^2.1.0
+    version: 2.1.0(postcss@8.4.31)(prettier@3.2.5)
   prettier-plugin-organize-imports:
     specifier: ^3.2.4
     version: 3.2.4(prettier@3.2.5)(typescript@5.1.6)
@@ -199,11 +199,11 @@ packages:
       postcss: 8.4.31
     dev: false
 
-  /postcss-scss@4.0.6(postcss@8.4.31):
-    resolution: {integrity: sha512-rLDPhJY4z/i4nVFZ27j9GqLxj1pwxE80eAzUNRMXtcpipFYIeowerzBgG3yJhMtObGEXidtIgbUpQ3eLDsf5OQ==}
+  /postcss-scss@4.0.9(postcss@8.4.31):
+    resolution: {integrity: sha512-AjKOeiwAitL/MXxQW2DliT28EKukvvbEWx3LBmJIRN8KfBGZbRTxNYW0kSqi1COiTZ57nZ9NW06S6ux//N1c9A==}
     engines: {node: '>=12.0'}
     peerDependencies:
-      postcss: ^8.4.19
+      postcss: ^8.4.29
     dependencies:
       postcss: 8.4.31
     dev: false
@@ -217,15 +217,15 @@ packages:
       source-map-js: 1.0.2
     dev: false
 
-  /prettier-plugin-css-order@2.0.1(postcss@8.4.31)(prettier@3.2.5):
-    resolution: {integrity: sha512-Y+wZ0wI7/qFUritirJksQn13KqbcNC3OZXSxGh1ui/X39hAeMW9md+Mp7fjk8H4ZQQ8c5CTYZxShoBfAal/79A==}
+  /prettier-plugin-css-order@2.1.0(postcss@8.4.31)(prettier@3.2.5):
+    resolution: {integrity: sha512-KOwK0SWLo9iGeE7B2dT9Oca8Egjfnr/rBHuRJKIWLYvzNtiVFgjJxoZGltlSEUDpU667d2jAH/8I6QhX8cOVLQ==}
     engines: {node: '>=16'}
     peerDependencies:
       prettier: 3.x
     dependencies:
       css-declaration-sorter: 7.1.1(postcss@8.4.31)
       postcss-less: 6.0.0(postcss@8.4.31)
-      postcss-scss: 4.0.6(postcss@8.4.31)
+      postcss-scss: 4.0.9(postcss@8.4.31)
       prettier: 3.2.5
     transitivePeerDependencies:
       - postcss
