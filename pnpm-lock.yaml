@@ -9,8 +9,8 @@ dependencies:
     specifier: ^3.2.5
     version: 3.2.5
   prettier-plugin-css-order:
-    specifier: ^2.1.1
-    version: 2.1.1(postcss@8.4.31)(prettier@3.2.5)
+    specifier: ^2.1.2
+    version: 2.1.2(postcss@8.4.31)(prettier@3.2.5)
   prettier-plugin-organize-imports:
     specifier: ^3.2.4
     version: 3.2.4(prettier@3.2.5)(typescript@5.1.6)
@@ -224,8 +224,8 @@ packages:
       source-map-js: 1.0.2
     dev: false
 
-  /prettier-plugin-css-order@2.1.1(postcss@8.4.31)(prettier@3.2.5):
-    resolution: {integrity: sha512-oAnL8g4T31Y8mhdJOn2UtoljFrzl595iogu2mt6T2vcKlDpgid5yCA/y+T8thcu8HWTM+NBmCt3MOBy/5t8Inw==}
+  /prettier-plugin-css-order@2.1.2(postcss@8.4.31)(prettier@3.2.5):
+    resolution: {integrity: sha512-vomxPjHI6pOMYcBuouSJHxxQClJXaUpU9rsV9IAO2wrSTZILRRlrxAAR8t9UF6wtczLkLfNRFUwM+ZbGXOONUA==}
     engines: {node: '>=16'}
     peerDependencies:
       prettier: 3.x
