@@ -5,7 +5,7 @@
     "dependencies": {
         "prettier": "^3.3.3",
         "prettier-plugin-css-order": "^2.1.2",
-        "prettier-plugin-organize-imports": "^4.0.0",
+        "prettier-plugin-organize-imports": "^4.1.0",
         "prettier-plugin-packagejson": "^2.5.2"
     }
 }
