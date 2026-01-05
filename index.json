@@ -7,6 +7,7 @@
     "semi": true,
     "singleQuote": true,
     "tabWidth": 4,
+    "cssDeclarationSorterOrder": "frakto",
     "overrides": [
         {
             "files": ["*.hbs", "*.css"],
