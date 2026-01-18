@@ -6,9 +6,9 @@
         "url": "git+https://github.com/Eejit43/prettier-config.git"
     },
     "dependencies": {
-        "prettier": "^3.7.4",
+        "prettier": "^3.8.0",
         "prettier-plugin-css-order": "^2.2.0",
         "prettier-plugin-organize-imports": "^4.3.0",
-        "prettier-plugin-packagejson": "^2.5.20"
+        "prettier-plugin-packagejson": "^2.5.22"
     }
 }
