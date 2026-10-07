@@ -1,12 +1,12 @@
 {
     "name": "@eejit/prettier-config",
-    "version": "3.6.2",
+    "version": "3.7.0",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/Eejit43/prettier-config.git"
     },
     "dependencies": {
-        "prettier": "^3.8.1",
+        "prettier": "^3.9.9",
         "prettier-plugin-css-order": "^2.2.0",
         "prettier-plugin-organize-imports": "^4.3.0",
         "prettier-plugin-packagejson": "^3.0.2"

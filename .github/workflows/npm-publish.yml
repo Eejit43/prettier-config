@@ -1,6 +1,6 @@
 on:
     push:
-        branches: main
+        branches: [main]
 permissions:
     id-token: write # Required for OIDC
     contents: read
@@ -8,8 +8,9 @@ jobs:
     publish:
         runs-on: ubuntu-latest
         steps:
-            - uses: actions/checkout@v6
-            - uses: actions/setup-node@v6
+            - uses: actions/checkout@v7
+            - uses: pnpm/setup@v3
               with:
-                  node-version: 'lts/*'
-            - uses: JS-DevTools/npm-publish@v4
+                  version: 12
+                  install: false
+            - run: pnpm publish --provenance --recursive # Publish recursively to not fail if version already published
